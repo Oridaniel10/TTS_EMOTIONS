@@ -32,7 +32,7 @@ class TTSNode(Node):
             safe_text = safe_text[:50]
 
         # Generate audio with Alice voice
-        audio_array = generate_audio(text, history_prompt="v2/en_speaker_2")
+        audio_array = generate_audio(text, history_prompt="v2/en_speaker_3")
 
         # Saving the audio
         output_file = os.path.join(

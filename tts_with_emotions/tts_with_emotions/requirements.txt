@@ -1,2 +1,6 @@
-openai
-echo "bark" >> ../requirements.txt
+rclpy
+std_msgs
+scipy
+torch
+transformers
+suno-bark
